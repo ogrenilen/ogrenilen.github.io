@@ -1,0 +1,9 @@
+neden:
+  label: Nedenlerle Dolu Bir Dünya
+  permalink: /docs
+  description: Nedenlerle dolu o etiket.
+
+hedef:
+  label: Hedef koymak iyidir
+  permalink: /blog
+  description: Hedeflerimizi bilmek iyidir
