@@ -1,4 +1,4 @@
-import styles from './banner.module.css';
+import styles from './Banner.module.css';
 import Link from "@docusaurus/Link";
 
 export default function Banner() {
