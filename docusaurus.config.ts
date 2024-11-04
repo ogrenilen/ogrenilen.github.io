@@ -4,11 +4,11 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Okulda Öğrenilen',
-  tagline: 'Okulda öğrendiklerimizin arşivi',
+  tagline: 'Okulda öğrendiklerimizin ücretsiz arşivi',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://ogrenilen.netlify.app',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -64,7 +64,7 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/okulda-ogrenillen-sosyal-kart.jpg',
     navbar: {
       title: 'OkuldaOgrenilen',
       logo: {
@@ -88,10 +88,9 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'temelBilgiTeknolojileri',
           position: 'left',
-          label: 'Temel Bilgi Teknolojileri',
+          label: 'TBT',
         },
         {to: '/tum-dersler', label: 'Tüm Dersler', position: 'left'},
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/ogrenilen/',
           label: 'GitHub',
@@ -114,14 +113,6 @@ const config: Config = {
         {
           title: 'Sosyal',
           items: [
-            /*{
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },*/
             {
               label: 'Twitter',
               href: 'https://twitter.com/acanisik',

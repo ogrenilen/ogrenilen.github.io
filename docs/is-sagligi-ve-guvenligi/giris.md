@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+title: Önsöz
 ---
 
 # İş Sağlığı ve Güvenliği

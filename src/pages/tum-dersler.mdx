@@ -1,7 +1,36 @@
 ---
 title: Tüm Dersler
 ---
+import sidebars from "../../sidebars";
+import Link from "@docusaurus/Link";
 
-# Sitede bulunan Bütün Derslerin Listesi
+export function ListLessons() {
+    return (
+        <table>
+            <thead>
+            <tr>
+                <th>Dersin Adı</th>
+            </tr>
+            </thead>
+            <tbody>
+            {
+                Object.values(sidebars).map((value, index) => (
+                    <tr key={index}>
+                        <td>
+                            <Link to={`/docs/${value[0].dirName}/giris`}>
+                                {value[0].dirName.replaceAll('-', ' ').toUpperCase()}
+                            </Link>
+                        </td>
+                    </tr>
+                ))
+            }
+            </tbody>
+        </table>
+    );
+}
 
-Ana dersler ve diğer derslerin eğitimlerine aşağıdaki listeden ulaşabilirsiniz.
+# Notları Bulunan Derslerin Listesi
+
+Ana dersler ve diğer derslerin notlarına aşağıdaki listeden ulaşabilirsiniz.
+
+<ListLessons/>

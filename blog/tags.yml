@@ -7,3 +7,7 @@ hedef:
   label: Hedef koymak iyidir
   permalink: /blog
   description: Hedeflerimizi bilmek iyidir
+
+guncellendi:
+  label: Ders Notları Güncellendi
+  description: Yeni eklenen ders notları mevcuttur.
